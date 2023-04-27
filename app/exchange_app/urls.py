@@ -1,7 +1,7 @@
 from django.urls import path
 from .views import exchange
 
-urlpatterns = {
-    path('', exchange)
-}
+urlpatterns = [
+    path('', exchange, name='exchange'),
+]
 
